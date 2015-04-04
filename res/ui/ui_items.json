@@ -1,0 +1,57 @@
+{
+	com.badlogic.gdx.graphics.Color: {
+		
+		white: { r: 1, g: 1, b: 1, a: 1 },
+		black: { r: 0, g: 0, b: 0, a: 1 },
+		gray:  { r: 0.3, g: 0.3, b: 0.3, a: 1 },
+		red:   { r: 1, g: 0, b: 0, a: 1 },
+		green: { r: 0, g: 1, b: 0, a: 1 },
+		blue:  { r: 0, g: 0, b: 1, a: 1 }
+	},
+	com.badlogic.gdx.graphics.g2d.BitmapFont: {
+		default: { file: ./res/ui/arial.fnt }
+	},
+	/*
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+		default: { font: white32, fontColor: white },
+		big:     { font: white64, fontColor: white },
+		small:   { font: white16, fontColor: white }
+	},*/
+	//font: black32
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+		
+		default: { up: button_normal_up, down: button_normal_down, checked: button_normal_down, font: default  },
+		basic:   { up: button_basic_up,  down: button_basic_down,  checked: button_basic_down,  font: default  },
+		flat:    { up: button_flat_up,   down: button_flat_down,   checked: button_flat_down,   font: default  }
+	},
+	// Image buttons:
+	com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+		
+		default: { up: button_flat_up, down: button_flat_down, checked: button_flat_down },
+		basic:   { up: button_basic_up,  down: button_basic_down,  checked: button_basic_down  },
+		flat:    { up: button_flat_up,   down: button_flat_down,   checked: button_flat_down   }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+		
+		default: { hScrollKnob: button_normal_up, vScrollKnob: button_normal_up, },
+		basic:   { hScrollKnob: button_basic_up,  vScrollKnob: button_basic_up,  },
+		flat:    { hScrollKnob: button_flat_up,   vScrollKnob: button_flat_up,   }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+		
+		default: { font: default, background: text_field, cursor: selected, fontColor: white, messageFontColor: gray, selection: selected }
+	}
+	/*
+	com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+		default: { font: white32, fontColorUnselected: white, fontColorSelected: black, selection: default.selection }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+		default: { hScrollKnob: button.up, vScrollKnob: button.up }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+		default: { font: white32, checkboxOn: checkbox.on, checkboxOff: checkbox.off, checkboxOver: checkbox.over }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+		default: { font: default, fontColor: black, messageFontColor: gray, background: default.background, cursor: default.selection }
+	}*/
+}
